@@ -3,7 +3,7 @@
 This is a full-stack shopping cart project with a React (Vite) frontend and a Node.js backend.
 
 
-> Note: This project uses MongoDB with local storage. Ensure MongoDB is installed and running on your system.
+> Note: This project uses MongoDB with local storage. Ensure MongoDB is installed and running on your system. [How to install](#install-mongodb)
 
 ## Installation
 
@@ -56,6 +56,50 @@ npm run import-csv
 - `client/` - React frontend
 - `server/` - Node.js backend
 - `shopping_cart.products.csv` - Sample product data
+
+
+### Install MongoDB
+
+#### Windows:
+1. Download MongoDB from [MongoDB Official Website](https://www.mongodb.com/try/download/community).
+2. Run the installer and follow the setup instructions.
+3. Add MongoDB to the system path (optional but recommended).
+4. Start MongoDB using:
+   ```sh
+   mongod
+   ```
+
+#### macOS:
+1. Install MongoDB via Homebrew:
+   ```sh
+   brew tap mongodb/brew
+   brew install mongodb-community@6.0
+   ```
+2. Start the MongoDB service:
+   ```sh
+   brew services start mongodb-community@6.0
+   ```
+
+#### Linux (Ubuntu/Debian):
+1. Install MongoDB:
+   ```sh
+   sudo apt update
+   sudo apt install -y mongodb
+   ```
+2. Start MongoDB:
+   ```sh
+   sudo systemctl start mongodb
+   ```
+3. Enable MongoDB to start on boot:
+   ```sh
+   sudo systemctl enable mongodb
+   ```
+
+### Running MongoDB
+Ensure MongoDB is running before starting the server:
+```sh
+mongod
+```
 
 
 
