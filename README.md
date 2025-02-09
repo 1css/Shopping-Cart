@@ -2,6 +2,8 @@
 
 This is a full-stack shopping cart project with a React (Vite) frontend and a Node.js backend.
 
+#### This project uses MongoDB with local storage. Ensure MongoDB is installed and running on your system.
+
 ## Installation
 
 1. Clone the repository:
