@@ -1,0 +1,6 @@
+{
+  "extends": ["react", "eslint:recommended"],
+  "rules": {
+    "no-unused-vars": "warn"
+  }
+}

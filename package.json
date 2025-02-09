@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "scripts": {
+    "cartproject": "concurrently \"npm run backend --prefix server\" \"npm run dev --prefix client\"",
+    "import-csv": "node server/importCsv.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.10.0"
+  }
+}
