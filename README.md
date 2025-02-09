@@ -1,6 +1,6 @@
 # Shopping Cart Project
 
-This is a full-stack shopping cart project with a React frontend and a Node.js backend.
+This is a full-stack shopping cart project with a React (Vite) frontend and a Node.js backend.
 
 ## Installation
 
